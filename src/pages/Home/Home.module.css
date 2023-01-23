@@ -1,0 +1,1641 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+:root {
+    --main-color: #0D64B1;
+    --text-color: #ccc;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--text-color);
+    background-image: url('../../assets/background.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.topButtonScroll {
+    position: fixed;
+    display: block;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: var();
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: auto;
+    padding-bottom: 40px;
+    font-size: 40px;
+    background-color: #1280e060;
+    border: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.container {
+    height: 120px;
+}
+
+.asideArea {
+    display: none;
+}
+
+
+
+.upperArea {
+    background-color: #3B3B3B;
+}
+
+.boxUpperArea {
+    max-width: 1200px;
+    background-color: #3B3B3B;
+    height: 31px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: auto;
+    padding-left: 187px;
+    gap: 150px;
+}
+
+.contactsBox1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contactsBox1 p {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    background-color: #3B3B3B;
+    padding-left: 6px;
+}
+
+.iconArea {
+    height: 50px;
+    width: 50px;
+    transition: all 0.6s ease;
+}
+
+.iconArea:hover {
+    height: 55px;
+    width: 55px;
+}
+
+.lowerTotalArea {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.40);
+}
+
+
+.totalMenuArea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 91px;
+    margin: auto;
+    gap: 20px;
+}
+
+.totalNavArea {
+    max-width: 450px;
+    height: 91px;
+
+}
+
+.totalNavArea nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 91px;
+    gap: 40px;
+    list-style-type: none;
+}
+
+
+
+.totalNavArea nav ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 7px;
+    transition: border 0.4s ease;
+}
+
+.totalNavArea nav ul li a:hover {
+    color: #0D64B1;
+    border-bottom: 4px solid #0D64B1;
+    border-radius: 3px;
+
+}
+
+
+.asideBtnArea {
+    display: none;
+}
+
+#home {
+    height: 100%;
+    width: 100%;
+}
+
+
+.bgTotalArea {
+    height: 660px;
+    width: 1200px;
+    margin: auto;
+    padding-top: 160px;
+}
+
+.containerTitleArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 800px;
+    height: 380px;
+}
+
+.homeTitleArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    max-width: 745px;
+    height: 380px;
+    color: #D9D9D9;
+    gap: 15px;
+}
+
+.homeTitleArea h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.homeTitleArea h1 {
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+}
+
+#about {
+    max-width: 100%;
+    height: 450px;
+    background-color: #fff;
+}
+
+.boxArticleArea {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    height: 920px;
+    margin: auto;
+    gap: 260px;
+}
+
+.articleArea1 {
+    width: 420px;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articleArea1 img {
+    width: 580px;
+    height: 520px;
+    border-radius: 8px;
+}
+
+.articleArea2 {
+    height: 420px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    color: white;
+    padding-left: 30px;
+}
+
+.articleArea2 h2 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.articleArea2 p {
+    max-width: 473px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.boxArticleArea2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 1200px;
+    margin: auto;
+    gap: 40px;
+}
+
+.boxProjects {
+    max-width: 1200px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.gitAnchor {
+    font-size: 20px;
+    text-decoration: none;
+    color: #888;
+}
+
+.gitAnchor:hover {
+    color: #bbb;
+}
+
+
+.infoProjects h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.boxesProjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxesProjects a {
+    text-decoration: none;
+    color: #0058ca;
+}
+
+.boxesProjects a:hover {
+    color: #0080ff;
+    font-size: 17px;
+}
+
+.projectsContainers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 340px;
+    height: 245px;
+    border-radius: 8px;
+    margin-left: 32.5px;
+    margin-right: 32.5px;
+    text-align: justify;
+    border: 2px solid #002453;
+    text-decoration: none;
+}
+
+.projectsContainers h2 {
+    transition: all 0.6s ease;
+}
+
+
+.projectsContainers p {
+    transition: all 0.6s ease;
+    text-align: center;
+}
+
+
+
+.projectsContainers img {
+    width: 300px;
+    border-radius: 12px;
+
+}
+
+.label {
+    background-color: rgba(0, 0, 0, 0.47);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    font-size: 25px;
+    transition: all 0.2s ease;
+}
+
+.label:hover {
+    background-color: rgba(0, 0, 0, 0.37);
+    font-size: 28px;
+}
+
+.boxArticleArea3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 1200px;
+    margin: auto;
+    gap: 40px;
+}
+
+.boxArticleArea3 .articleArea2 {
+    justify-content: flex-start;
+}
+
+.boxArticleArea3 .articleArea2 p {
+    margin-top: 50px;
+}
+
+.areaBadge {
+    display: flex;
+}
+
+.skillBox {
+    width: 600px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.skillBox img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    transition: all 0.5s linear;
+}
+
+.skillBox img:hover {
+    width: 120px;
+    height: 120px;
+}
+
+.devBadges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(204, 204, 204, 0.219);
+    border-radius: 16px;
+}
+
+
+.habilitiesTitle h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.containerFooter {
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #002453;
+
+}
+
+.containerFooter .totalMenuArea {
+    gap: 150px;
+    padding-left: 65px;
+}
+
+.lowerTotalAreaFooter {
+    width: 100%;
+    background-color: #002453;
+}
+
+.lowerTotalAreaFooter .lowerArea {
+    max-width: 1200px;
+    height: 100px;
+    background-color: #002453;
+    margin: auto;
+}
+
+.reservedRights {
+    width: 500px;
+    color: var(--text-color);
+    font-size: 25px;
+}
+
+.containerFooter .socialsBox1 {
+    width: 180px;
+}
+
+.containerFooter .socialsBox1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.containerFooter .contactsBox1 {
+    width: 120px;
+    height: 100px;
+    background-color: #002453;
+    gap: 20px;
+}
+
+.containerFooter .contactsBox1 p {
+    background-color: #002453;
+    font-size: 18px;
+}
+
+
+
+@media (min-width:1024px) and (max-width:1260px) {
+
+    .boxUpperArea {
+        max-width: 800px;
+        padding-left: 20px;
+        gap: 150px;
+    }
+
+
+    .contactsBox1 p {
+        font-size: 12px;
+    }
+
+    .totalMenuArea {
+        max-width: 800px;
+    }
+
+
+    .bgTotalArea {
+        height: 660px;
+        width: 800px;
+        margin: auto;
+        padding-top: 160px;
+    }
+
+    .containerTitleArea {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 800px;
+        height: 380px;
+    }
+
+    .boxArticleArea {
+        width: 860px;
+        gap: 30px;
+    }
+
+    .boxArticleArea2 {
+        height: 1000px;
+    }
+
+    .boxProjects {
+        max-width: 930px;
+    }
+
+
+    .boxesProjects {
+        gap: 15px;
+    }
+
+    .projectsContainers {
+        width: 300px;
+        height: 380px;
+        margin: 0;
+    }
+
+
+    .lowerTotalAreaFooter .lowerArea {
+        max-width: 800px;
+    }
+
+    .reservedRights {
+        width: 300px;
+        font-size: 22px;
+    }
+
+    .containerFooter .totalMenuArea {
+        gap: 150px;
+        padding-left: 0;
+    }
+
+    .containerFooter .logoArea a p {
+        width: 143px;
+    }
+
+    .containerFooter .contactsBox1 p {
+        font-size: 12px;
+    }
+
+    .containerFooter .socialsBox1 {
+        width: 120px;
+    }
+
+    .containerFooter .socialsBox1 img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+
+    .boxUpperArea {
+        max-width: 800px;
+        padding-left: 20px;
+        gap: 10px;
+        justify-content: center;
+    }
+
+
+    .contactsBox1 p {
+        font-size: 10px;
+    }
+
+    .totalMenuArea {
+        max-width: 700px;
+        gap: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .totalNavArea nav ul {
+        gap: 20px;
+    }
+
+    .bgTotalArea {
+        height: 660px;
+        width: 670px;
+        margin: auto;
+        padding-top: 160px;
+    }
+
+    .containerTitleArea {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: unset;
+        height: 380px;
+    }
+
+    .boxArticleArea {
+        width: 720px;
+        gap: 30px;
+    }
+
+    .articleArea1 {
+        width: 400px;
+    }
+
+    .articleArea1 img {
+        width: 230px;
+        height: 260px;
+    }
+
+    .articleArea2 {
+        width: 280px;
+        height: 340px;
+        gap: 7px;
+        margin: auto;
+    }
+
+    .articleArea2 h2 {
+        font-size: 30px;
+    }
+
+
+    .articleArea2 p {
+        font-size: 16px;
+        max-width: 300px;
+    }
+
+
+    .boxProjects {
+        max-width: 760px;
+    }
+
+    .boxesProjects {
+        gap: 15px;
+    }
+
+    .projectsContainers {
+        width: 240px;
+        height: 360px;
+        margin: 0;
+    }
+
+    .projectsContainers img {
+        width: 230px;
+    }
+
+    .projectsContainers h2 {
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .projectsContainers p {
+        font-size: 14px;
+        width: 180px;
+        margin-left: 10px;
+        margin-top: 9px;
+    }
+
+    .boxArticleArea3 {
+        max-width: 760px;
+        height: 1100px;
+        gap: unset;
+    }
+
+    .skillBox {
+        height: 345px;
+    }
+
+    .devBadges {
+        width: 90px;
+        height: 91px;
+    }
+
+    .devBadges img {
+        width: 80px;
+    }
+
+    .devBadges img:hover {
+        width: 85px;
+    }
+
+    .articleArea2 p {
+        gap: 0px;
+    }
+
+    .lowerTotalAreaFooter .lowerArea {
+        max-width: 800px;
+    }
+
+    .reservedRights {
+        width: 300px;
+        font-size: 22px;
+    }
+
+
+    .containerFooter {
+        height: 145px;
+        padding-top: 20px;
+        align-items: start;
+    }
+
+    .containerFooter .totalMenuArea {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        max-width: 735px;
+        gap: 30px;
+    }
+
+    .containerFooter .logoArea a {
+        width: 143px;
+    }
+
+    .containerFooter .contactsBox1 p {
+        font-size: 12px;
+    }
+
+    .containerFooter .socialsBox1 {
+        width: 160px;
+    }
+
+    .containerFooter .socialsBox1 img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (min-width:425px) and (max-width:768px) {
+
+    .boxUpperArea {
+        max-width: 800px;
+        padding-left: 20px;
+        gap: 10px;
+        justify-content: center;
+    }
+
+
+    .contactsBox1 {
+        display: none;
+    }
+
+
+    .socialsBox1 {
+        display: none;
+    }
+
+    .totalMenuArea {
+        max-width: 660px;
+        gap: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        justify-content: space-between;
+    }
+
+    .totalNavArea {
+        display: none;
+    }
+
+    .asideBtnArea {
+        width: 50px;
+        height: 50px;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.534);
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .btnMenuAside {
+        border: 0;
+    }
+
+
+    .asideBar {
+        width: 35px;
+        height: 5px;
+        border-radius: 20px;
+        background-color: var(--text-color);
+    }
+
+    .asideArea {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .asideMenuArea {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.67);
+        z-index: 1;
+        animation: 0.4s ease-in-out 0s 1 forwards running asideAnimation;
+    }
+
+    @keyframes asideAnimation {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    .asideClose {
+        color: var(--text-color);
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+
+    aside {
+        display: flex;
+        height: 400px;
+        text-align: center;
+    }
+
+    .asideMenuArea li {
+        list-style-type: none;
+        margin-top: 40px;
+    }
+
+    .asideMenuArea li a {
+        text-decoration: none;
+        color: var(--text-color);
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .bgTotalArea {
+        display: unset;
+        width: 800px;
+        margin: auto;
+        padding-top: 160px;
+    }
+
+    .containerTitleArea {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: unset;
+        height: calc(100vh - 160px);
+    }
+
+    .homeTitleArea {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxArticleArea {
+        width: unset;
+        gap: 30px;
+    }
+
+
+    .boxArticleArea {
+        height: 850px;
+        flex-direction: column-reverse;
+        transform: translateX();
+    }
+
+    .boxArticleArea2 {
+        align-items: center;
+        height: 990px;
+    }
+
+    .articleArea1 {
+        display: none;
+        width: 400px;
+    }
+
+    .articleArea1 img {
+        width: 350px;
+        height: 260px;
+    }
+
+    .articleArea2 {
+        width: 390px;
+        height: 300px;
+        padding-left: unset;
+        margin: auto;
+    }
+
+    .articleArea2 h3 {
+        font-size: 14px;
+    }
+
+    .articleArea2 p {
+        max-width: unset;
+        font-size: 16px;
+    }
+
+    .boxProjects {
+        max-width: 760px;
+    }
+
+    .boxesProjects {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .projectsContainers {
+        width: 295px;
+        height: 220px;
+        margin: 0;
+    }
+
+    .projectsContainers img {
+        width: 302px;
+    }
+
+    .projectsContainers h2 {
+        font-size: 24px;
+        margin-left: unset;
+        margin-top: unset;
+    }
+
+    .projectsContainers p {
+        font-size: 15px;
+        width: 288px;
+        margin-left: unset;
+        margin-top: unset;
+    }
+
+    .boxArticleArea3 {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 985px;
+        gap: 10px;
+    }
+
+    .skillBox {
+        width: 390px;
+        height: 370px;
+        gap: 7px;
+    }
+
+    .devBadges {
+        width: 90px;
+        height: 90px;
+    }
+
+    .devBadges img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .devBadges img:hover {
+        width: 80px;
+        height: 80px;
+    }
+
+    .lowerTotalAreaFooter .lowerArea {
+        max-width: 800px;
+    }
+
+    .reservedRights {
+        width: 300px;
+        font-size: 22px;
+        margin-left: unset;
+    }
+
+    .containerFooter .logoArea a p {
+        width: 143px;
+    }
+
+
+    .containerFooter .contactsBox1 p {
+        font-size: 12px;
+    }
+
+    .containerFooter .socialsBox1 {
+        width: 85px;
+        display: flex;
+    }
+
+    .containerFooter .socialsBox1 img {
+        width: 20px;
+        height: 20px;
+
+        display: flex;
+    }
+
+    .containerFooter {
+        height: 170px;
+        padding-top: 20px;
+        align-items: start;
+        padding-right: 44px;
+    }
+
+    .containerFooter .totalMenuArea {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .containerFooter .logoArea a {
+        width: 143px;
+    }
+
+    .containerFooter .contactsBox1 {
+        display: flex;
+        width: unset;
+        gap: 30px;
+    }
+
+    .containerFooter .contactsBox1 p {
+        font-size: 12px;
+    }
+
+
+}
+
+@media (min-width:320px) and (max-width:425px) {
+
+    .totalMenuArea {
+        max-width: 660px;
+        gap: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        justify-content: space-between;
+    }
+
+    .totalNavArea {
+        display: none;
+    }
+
+    .asideBtnArea {
+        width: 50px;
+        height: 50px;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.534);
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .btnMenuAside {
+        border: 0;
+    }
+
+
+    .asideBar {
+        width: 35px;
+        height: 5px;
+        border-radius: 20px;
+        background-color: var(--text-color);
+    }
+
+    .asideArea {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .asideMenuArea {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.67);
+        z-index: 1;
+        animation: 0.3s ease-in-out 0s 1 normal forwards running asideAnimation;
+    }
+
+    @keyframes asideAnimation {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    .asideClose {
+        color: var(--text-color);
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+
+    aside {
+        display: flex;
+        height: 400px;
+        text-align: center;
+    }
+
+    .asideMenuArea li {
+        list-style-type: none;
+        margin-top: 40px;
+    }
+
+    .asideMenuArea li a {
+        text-decoration: none;
+        color: var(--text-color);
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .bgTotalArea {
+        display: unset;
+        width: 800px;
+        margin: auto;
+        padding-top: 160px;
+    }
+
+    .title {
+        font-size: 33px;
+    }
+
+    .containerTitleArea {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: unset;
+        height: calc(100vh - 160px);
+    }
+
+    .homeTitleArea {
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .homeTitleArea h1 {
+        font-size: 16px;
+    }
+
+    .boxArticleArea {
+        width: unset;
+        gap: 30px;
+    }
+
+
+    .boxArticleArea {
+        height: 850px;
+        flex-direction: column-reverse;
+        transform: translateX();
+    }
+
+    .boxArticleArea2 {
+        align-items: center;
+        height: 990px;
+    }
+
+    .articleArea1 {
+        display: none;
+        width: 400px;
+    }
+
+    .articleArea1 img {
+        width: 350px;
+        height: 260px;
+    }
+
+    .articleArea2 {
+        height: 300px;
+        padding-left: unset;
+        margin: auto;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .articleArea2 h2 {
+        font-size: 32px;
+    }
+
+    .articleArea2 p {
+        max-width: 296px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .boxProjects {
+        max-width: 760px;
+        height: 810px;
+    }
+
+    .infoProjects h2 {
+        font-size: 32px;
+    }
+
+    .boxesProjects {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .projectsContainers {
+        width: 295px;
+        height: 220px;
+        margin: 0;
+    }
+
+    .projectsContainers img {
+        width: 302px;
+    }
+
+    .projectsContainers h2 {
+        font-size: 24px;
+        margin-left: unset;
+        margin-top: unset;
+    }
+
+    .projectsContainers p {
+        font-size: 15px;
+        width: 288px;
+        margin-left: unset;
+        margin-top: unset;
+    }
+
+    .boxArticleArea3 {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 870px;
+        gap: 0;
+    }
+
+    .habilitiesTitle h2 {
+        font-size: 32px;
+    }
+
+    .skillBox {
+        width: 288px;
+        height: 235px;
+        gap: 7px;
+        margin: auto;
+    }
+
+    .devBadges {
+        width: 60px;
+        height: 60px;
+    }
+
+    .devBadges img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .devBadges img:hover {
+        width: 60px;
+        height: 60px;
+    }
+
+    .lowerTotalAreaFooter .lowerArea {
+        max-width: 800px;
+    }
+
+    .reservedRights {
+        width: 300px;
+        font-size: 16px;
+        margin-left: unset;
+    }
+
+    .containerFooter .logoArea a p {
+        width: 143px;
+    }
+
+
+    .containerFooter .contactsBox1 p {
+        font-size: 12px;
+    }
+
+    .containerFooter .socialsBox1 {
+        width: 85px;
+        display: flex;
+    }
+
+    .containerFooter .socialsBox1 img {
+        width: 20px;
+        height: 20px;
+
+        display: flex;
+    }
+
+    .containerFooter {
+        height: 140px;
+        padding-top: 20px;
+        align-items: start;
+        padding-right: 44px;
+    }
+
+    .containerFooter .totalMenuArea {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .containerFooter .logoArea a {
+        width: 143px;
+    }
+
+    .containerFooter .contactsBox1 {
+        display: flex;
+        width: unset;
+        gap: 22px;
+    }
+
+    .containerFooter .contactsBox1 img {
+        width: 35px;
+        height: 35px;
+    }
+
+
+}
+
+
+@media (min-width:220px) and (max-width:320px) {
+
+    .title {
+        font-size: 32px;
+    }
+
+    .totalMenuArea {
+        max-width: 660px;
+        gap: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        justify-content: space-between;
+    }
+
+    .totalNavArea {
+        display: none;
+    }
+
+    .asideBtnArea {
+        width: 50px;
+        height: 50px;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.534);
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .btnMenuAside {
+        border: 0;
+    }
+
+
+    .asideBar {
+        width: 35px;
+        height: 5px;
+        border-radius: 20px;
+        background-color: var(--text-color);
+    }
+
+    .asideArea {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .asideMenuArea {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.67);
+        z-index: 1;
+        animation: 0.3s ease-in-out 0s 1 normal forwards running asideAnimation;
+    }
+
+    @keyframes asideAnimation {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    .asideClose {
+        color: var(--text-color);
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+
+    aside {
+        display: flex;
+        height: 400px;
+        text-align: center;
+    }
+
+    .asideMenuArea li {
+        list-style-type: none;
+        margin-top: 40px;
+    }
+
+    .asideMenuArea li a {
+        text-decoration: none;
+        color: var(--text-color);
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .bgTotalArea {
+        display: unset;
+        width: 800px;
+        margin: auto;
+        padding-top: 160px;
+    }
+
+    .containerTitleArea {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: unset;
+        height: calc(100vh - 160px);
+    }
+
+    .homeTitleArea {
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .homeTitleArea h1 {
+        font-size: 16px;
+    }
+
+    .boxArticleArea {
+        width: unset;
+        gap: 30px;
+    }
+
+
+    .boxArticleArea {
+        height: 850px;
+        flex-direction: column-reverse;
+        transform: translateX();
+    }
+
+    .boxArticleArea2 {
+        align-items: center;
+        height: 990px;
+    }
+
+    .articleArea1 {
+        display: none;
+        width: 400px;
+    }
+
+    .articleArea1 img {
+        width: 350px;
+        height: 260px;
+    }
+
+    .articleArea2 {
+        height: 300px;
+        padding-left: unset;
+        margin: auto;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .articleArea2 h2 {
+        font-size: 32px;
+    }
+
+    .articleArea2 p {
+        max-width: 296px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+    .boxProjects {
+        max-width: 760px;
+        height: 810px;
+    }
+
+    .infoProjects h2 {
+        font-size: 32px;
+    }
+
+    .boxesProjects {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .projectsContainers {
+        width: 295px;
+        height: 220px;
+        margin: 0;
+    }
+
+    .projectsContainers img {
+        width: 302px;
+    }
+
+    .projectsContainers h2 {
+        font-size: 24px;
+        margin-left: unset;
+        margin-top: unset;
+    }
+
+    .projectsContainers p {
+        font-size: 15px;
+        width: 288px;
+        margin-left: unset;
+        margin-top: unset;
+    }
+
+    .boxArticleArea3 {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 870px;
+        gap: 0;
+    }
+
+    .habilitiesTitle h2 {
+        font-size: 32px;
+    }
+
+    .skillBox {
+        width: 288px;
+        height: 235px;
+        gap: 7px;
+        margin: auto;
+    }
+
+    .devBadges {
+        width: 60px;
+        height: 60px;
+    }
+
+    .devBadges img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .devBadges img:hover {
+        width: 60px;
+        height: 60px;
+    }
+
+    .lowerTotalAreaFooter .lowerArea {
+        max-width: 800px;
+    }
+
+    .reservedRights {
+        width: 300px;
+        font-size: 16px;
+        margin-left: unset;
+    }
+
+    .containerFooter .logoArea a p {
+        width: 143px;
+    }
+
+
+    .containerFooter .contactsBox1 p {
+        font-size: 12px;
+    }
+
+    .containerFooter .socialsBox1 {
+        width: 85px;
+        display: flex;
+    }
+
+    .containerFooter .socialsBox1 img {
+        width: 20px;
+        height: 20px;
+
+        display: flex;
+    }
+
+    .containerFooter {
+        height: 140px;
+        padding-top: 20px;
+        align-items: start;
+        padding-right: 44px;
+    }
+
+    .containerFooter .totalMenuArea {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .containerFooter .logoArea a {
+        width: 143px;
+    }
+
+    .containerFooter .contactsBox1 {
+        display: flex;
+        width: unset;
+        gap: 22px;
+    }
+
+    .containerFooter .contactsBox1 img {
+        width: 35px;
+        height: 35px;
+    }
+
+
+}
