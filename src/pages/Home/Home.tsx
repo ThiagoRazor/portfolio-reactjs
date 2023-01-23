@@ -3,7 +3,7 @@ import { Logo } from '../../../src/components/Logo';
 import { BtnMain } from '../../components/BtnMain';
 import gitHub from '../../assets/github-original.png';
 import animeAvatar from '../../assets/anime-avatar-web.png';
-import { showAsideMenu, closeAsideMenu } from '../../components/helpers/showAsideMenu';
+import { showAsideMenu } from '../../components/helpers/showAsideMenu';
 import { scrollToTop } from "../../components/helpers/scrollBtn";
 import { hideButton } from "../../components/helpers/hideBtn";
 import { TypeAnimation } from "react-type-animation";
