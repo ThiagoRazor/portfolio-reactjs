@@ -116,7 +116,7 @@ export const Home = () => {
                                 <h2 data-aos='fade-up' data-aos-duration="2000">Projetos</h2>
                             </div>
                             <div className={styles.boxesProjects}>
-                                <a href="https://page-test-62db3.web.app">
+                                <a href="https://www.sueliscleaningservice.com">
                                     <div className={styles.projectsContainers} data-aos='fade-up' data-aos-duration="2000">
                                         <h2>Sueli's Cleaning Service</h2>
                                         <p>Site de uma empresa prestadora de serviços de limpeza. Feito em ReactJs e TypeScript</p>
