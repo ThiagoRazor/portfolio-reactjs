@@ -12,16 +12,25 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ShowTextOnHover from "../../components/onHover/hoverTeconologies";
 import { items } from '../../components/onHover/items';
+import { openWhatsapp } from "../../components/helpers/whatsapp";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import {Tracker} from '../../components/CometTracker';
 
-export const Home = () => {
-
+export const Home= () => {
     AOS.init();
     window.addEventListener('scroll', hideButton);
 
     return (
+        
+            
+
+
         <div>
 
+
+            <Tracker />
             <button id="topButton" className={styles.topButtonScroll} onClick={scrollToTop}>^</button>
+            <button id="topButton" className={styles.whatsappBtn} onClick={openWhatsapp}><WhatsAppIcon style={{ width: '40', height: '40', position:'relative', left:'-4', top:'-5'}}/></button>
             <section id={styles.home}>
                 <header>
                     <div className={styles.asideArea}>
@@ -153,7 +162,6 @@ export const Home = () => {
                     </div>
                 </section>
             </article>
-
             <footer>
                 <div className={styles.containerFooter}>
                     <div className={styles.lowerTotalAreaFooter}>

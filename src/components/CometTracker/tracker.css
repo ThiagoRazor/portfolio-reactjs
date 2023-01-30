@@ -1,0 +1,42 @@
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: black;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 0; /* so that it stays on top of all other elements */
+}
+
+
+.circle::after{
+    display: block;
+    position: absolute;
+    top:-5px;
+    left:-5px;
+    content: '';
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.05);
+    transform: scale(0);
+    animation: flare 1.5s infinite;
+}
+
+
+@keyframes flare {
+
+    0% {
+        transform: scale(0.7);
+    }
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.7);	
+    }
+
+}
