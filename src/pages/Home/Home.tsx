@@ -123,7 +123,13 @@ export const Home= () => {
                                 <h2 data-aos='fade-up' data-aos-duration="2000">Projetos</h2>
                             </div>
                             <div className={styles.boxesProjects}>
-                                <a href="https://www.sueliscleaningservice.com">
+                                <a href="https://gym-landing.vercel.app" target="_blank">
+                                    <div className={styles.projectsContainers} data-aos='fade-up' data-aos-duration="2000">
+                                        <h2>EVOGYM Fitness</h2>
+                                        <p>Landing Page de uma academia fictícia. <br/>Feito em ReactJs e TypeScript</p>
+                                    </div>
+                                </a>
+                                <a href="https://www.sueliscleaningservice.com" target="_blank">
                                     <div className={styles.projectsContainers} data-aos='fade-up' data-aos-duration="2000">
                                         <h2>Sueli's Cleaning Service</h2>
                                         <p>Site de uma empresa prestadora de serviços de limpeza. Feito em ReactJs e TypeScript</p>
@@ -134,13 +140,8 @@ export const Home= () => {
                                         <p>Em Breve</p>
                                     </div>
                                 </div>
-                                <div className={styles.projectsContainers} data-aos='fade-up' data-aos-duration="2000">
-                                    <div className={styles.label}>
-                                        <p>Em Breve</p>
-                                    </div>
-                                </div>
                             </div>
-                            <a className={styles.gitAnchor} data-aos='fade-up' data-aos-duration="2000" href="https://github.com/ThiagoRazor?tab=repositories">Repositórios no Github</a>
+                            <a className={styles.gitAnchor} target="_blank" data-aos='fade-up' data-aos-duration="2000" href="https://github.com/ThiagoRazor" >Repositórios no Github</a>
 
                         </div>
 
