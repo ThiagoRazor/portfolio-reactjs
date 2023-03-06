@@ -25,6 +25,11 @@ export const items = [
         text: 'React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. É mantido pelo Facebook, Instagram, outras empresas e uma comunidade de desenvolvedores individuais.'
     },
     {
+        id: 'vue',
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" ,
+        text: 'Vue.js é um framework progressivo para construção de interfaces de usuário. Ele é projetado para ser incrementado gradualmente. A biblioteca principal é focada apenas na camada de visualização e é fácil de aprender e usar.'
+    },
+    {
         id: 'tailwind',
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
         text: 'Tailwind CSS é um framework de utilidades CSS para criar interfaces de usuário. Ele é um framework de utilidades CSS, o que significa que não é um framework de componentes, mas um framework de utilidades CSS.'
@@ -53,10 +58,6 @@ export const items = [
         id: 'sass',
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
         text: 'Sass é uma linguagem de folha de estilo compilada que é interpretada ou compilada em Cascading Style Sheets (CSS). SassScript é a linguagem de script interpretada incorporada em Sass.'
-    },
-    {
-        id: 'C',
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
-        text: 'C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa, procedural, padronizada pela Organização Internacional para Padronização (ISO) e pela American National Standards Institute (ANSI).'
-    },
+    }
+
 ]
