@@ -1,0 +1,25 @@
+    {
+    "projetos": [
+        {
+        "id": 1,
+        "titulo": "EVOGYM Fitness",
+        "descricao": "Landing Page de uma academia fictícia. <br/>Feito em ReactJs e TypeScript",
+        "link": "https://gym-landing.vercel.app",
+        "target": "_blank"
+        },
+        {
+        "id": 2,
+        "titulo": "Sueli's Cleaning Service",
+        "descricao": "Site de uma empresa prestadora de serviços de limpeza. Feito em ReactJs e TypeScript",
+        "link": "https://www.sueliscleaningservice.com",
+        "target": "_blank"
+        },
+        {
+        "id": 3,
+        "titulo": "Em Breve",
+        "descricao": "",
+        "link": "",
+        "target": ""
+        }
+    ]
+    }
