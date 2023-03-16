@@ -172,7 +172,7 @@ export const Home= () => {
                                 </div>
                                 <div className={styles.contactsBox1}>
                                     <a href="https://github.com/ThiagoRazor"><img className={styles.iconArea} src={gitHub} alt="GitHub" /></a>
-                                    <a href="https://www.linkedin.com/in/thiago-de-oliveira-da-silva-806772255/"> <img className={styles.iconArea} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="Linkedin" /> </a>
+                                    <a href="https://www.linkedin.com/in/thiago-oliveira-5a171426a/"> <img className={styles.iconArea} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="Linkedin" /> </a>
                                 </div>
                             </div>
                         </div>
