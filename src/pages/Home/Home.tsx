@@ -121,7 +121,7 @@ export const Home= () => {
 
                                 <h2 data-aos='fade-up' data-aos-duration="2000">Projetos</h2>
                             </div>
-                            <div  className={styles.boxesProjects}>
+                            <div className={styles.boxesProjects}>
                                 {projetosData.projetos.map((projeto) => (
                                     <a href={projeto.link} target="_blank">
                                         <div style={{backgroundImage:`url(${projeto.img})`}} className={styles.projectsContainers} data-aos='fade-up' data-aos-duration="2000">
@@ -129,7 +129,7 @@ export const Home= () => {
                                             <p>{projeto.descricao}</p>
                                         </div>
                                 </a> 
-                                    ))}
+                                ))}
                             </div>
                             <a className={styles.gitAnchor} target="_blank" data-aos='fade-up' data-aos-duration="2000" href="https://github.com/ThiagoRazor" >Repositórios no Github</a>
 
