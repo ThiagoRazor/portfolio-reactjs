@@ -2,24 +2,27 @@
     "projetos": [
         {
         "id": 1,
-        "titulo": "EVOGYM Fitness",
-        "descricao": "Landing Page de uma academia fictícia. <br/>Feito em ReactJs e TypeScript",
-        "link": "https://gym-landing.vercel.app",
-        "target": "_blank"
+        "titulo": "Pokédex Vue",
+        "descricao": "Uma Pokédex feita utilizando VueJS com SASS, Axios e Pinia. ",
+        "link": "https://pokedex-vue-nine.vercel.app",
+        "target": "_blank",
+        "img": "https://i.pinimg.com/564x/d5/68/85/d568852c2415625e88c9a1a8fd8034ec.jpg"
         },
         {
         "id": 2,
-        "titulo": "Sueli's Cleaning Service",
-        "descricao": "Site de uma empresa prestadora de serviços de limpeza. Feito em ReactJs e TypeScript",
-        "link": "https://www.sueliscleaningservice.com",
-        "target": "_blank"
+        "titulo": "EVOGYM Fitness",
+        "descricao": "Landing Page de uma academia fictícia. Feito em ReactJs e TypeScript",
+        "link": "https://gym-landing.vercel.app",
+        "target": "_blank",
+        "img": "https://i.pinimg.com/564x/d5/68/85/d568852c2415625e88c9a1a8fd8034ec.jpg"
         },
         {
         "id": 3,
-        "titulo": "Em Breve",
-        "descricao": "",
-        "link": "",
-        "target": ""
+        "titulo": "Sueli's Cleaning Service",
+        "descricao": "Site de uma empresa prestadora de serviços de limpeza. Feito em ReactJs e TypeScript",
+        "link": "https://www.sueliscleaningservice.com",
+        "target": "_blank",
+        "img": "https://i.pinimg.com/564x/d5/68/85/d568852c2415625e88c9a1a8fd8034ec.jpg"
         }
     ]
     }

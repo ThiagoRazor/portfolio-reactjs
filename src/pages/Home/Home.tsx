@@ -15,6 +15,7 @@ import { items } from '../../components/onHover/items';
 import { openWhatsapp } from "../../components/helpers/whatsapp";
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import projetosData from '../../components/Projects/projetos.json';
+import { url } from "inspector";
 
 export const Home= () => {
     AOS.init();
@@ -22,9 +23,6 @@ export const Home= () => {
 
     return (
         
-            
-
-
         <div>
 
 
@@ -118,15 +116,15 @@ export const Home= () => {
                 <section id="projects">
                     <div className={styles.boxArticleArea2}>
 
-                        <div className={styles.boxProjects}>
+                        <div  className={styles.boxProjects}>
                             <div className={styles.infoProjects}>
 
                                 <h2 data-aos='fade-up' data-aos-duration="2000">Projetos</h2>
                             </div>
-                            <div className={styles.boxesProjects}>
+                            <div  className={styles.boxesProjects}>
                                 {projetosData.projetos.map((projeto) => (
-                                    <a href="https://gym-landing.vercel.app" target="_blank">
-                                        <div className={styles.projectsContainers} data-aos='fade-up' data-aos-duration="2000">
+                                    <a href={projeto.link} target="_blank">
+                                        <div style={{backgroundImage:`url(${projeto.img})`}} className={styles.projectsContainers} data-aos='fade-up' data-aos-duration="2000">
                                             <h2>{projeto.titulo}</h2>
                                             <p>{projeto.descricao}</p>
                                         </div>

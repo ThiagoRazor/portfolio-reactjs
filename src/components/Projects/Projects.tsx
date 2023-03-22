@@ -3,14 +3,14 @@ import styles from '../../pages/Home/Home.module.css';
 
 const Projetos = () => {
     return (
-            <div className={styles.boxArticleArea2}>
+        <div className={styles.boxArticleArea2}>
                 <div className={styles.boxProjects}>
                     <div className={styles.infoProjects}>
                         <h2 data-aos="fade-up" data-aos-duration="2000"> 
                             Projetos
                         </h2>
                     </div>
-                    <div className={styles.boxesProjects}>
+                    <div  className={styles.boxesProjects}>
                         {projetosData.projetos.map((projeto) => (
                             <a href={projeto.link} target={projeto.target}>
                                 <div
