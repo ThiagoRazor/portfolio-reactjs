@@ -1,3 +1,43 @@
-Link to project: https://thiagooliveiradev.vercel.app
+# Portfólio ReactJs
 
-This is a developer portfolio built using ReactJS, a JavaScript library for building reusable UI components and managing the application's state. The portfolio showcases my skills in React, as well as other technologies such as HTML, CSS, and JavaScript. The source code for each project is available for review, providing insight into my coding style and approach to problem-solving. The portfolio also includes information about my education and work experience, as well as contact information for any potential job opportunities or collaborations.
+![Portfólio Screenshot](https://raw.githubusercontent.com/ThiagoRazor/portfolio-reactjs/main/src/assets/30.bmp.png)
+
+Esta é um Portfólio desenvolvido com ReactJs com utilização do Typescript como linguagem base
+apresentando informações sobre o desenvolvedor, incluindo alguns projetos e habilidades. 
+
+## Demonstração ao Vivo
+
+Confira o [Portfólio em ação](https://thiagooliveiradev.vercel.app/) no Vercel.
+
+## Recursos
+
+- ReactJs: Uma biblioteca JavaScript para criar interfaces de usuário.
+
+- Vercel: Plataforma de hospedagem para deploy rápido e fácil.
+  
+## Como Rodar Localmente
+
+1. Clone este repositório:
+```sh
+git clone https://github.com/ThiagoRazor/portfolio-reactjs.git
+```
+2. Instale as dependências:
+```sh
+   npm install
+```
+3. Inicie o servidor de desenvolvimento:
+```sh
+  npm run start
+```
+4. Abra o projeto no seu navegador em `http://localhost:3000`.
+
+## Funcionalidades 
+
+- [x] Listagem dos Projetos com os respectivos caminhos.
+- [x] Habilidades de desenvolvimento front end.
+- [x] Detalhes associados a cada habilidade front end.
+
+## Autor
+
+- [Thiago de Oliveira da Silva](https://github.com/ThiagoRazor) - Desenvolvedor principal
+
