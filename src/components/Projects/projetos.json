@@ -2,27 +2,36 @@
     "projetos": [
         {
         "id": 1,
-        "titulo": "Pokédex Vue",
-        "descricao": "Uma Pokédex feita utilizando VueJS com SASS, Axios e Pinia. ",
-        "link": "https://pokedex-vue-nine.vercel.app",
+        "titulo": "YuGiOh FM Database",
+        "descricao": "Uma SPA para YuGiOh FM feita utilizando VueJS com Tailwind CSS, Firebase, Pinia e etc. (Em andamento!)",
+        "link": "https://forbidden-database.web.app/",
         "target": "_blank",
-        "img": "https://raw.githubusercontent.com/ThiagoRazor/portfolio-reactjs/main/src/assets/pokedex.png"
+        "img": "https://raw.githubusercontent.com/ThiagoRazor/portfolio-reactjs/main/src/assets/Sem%20T%C3%ADtulo-21.png"
         },
         {
-        "id": 2,
-        "titulo": "EVOGYM Fitness",
-        "descricao": "Landing Page de uma academia fictícia. Feito em ReactJs e TypeScript",
-        "link": "https://gym-landing.vercel.app",
-        "target": "_blank",
-        "img": "https://raw.githubusercontent.com/ThiagoRazor/portfolio-reactjs/main/src/assets/gym.png"
+            "id": 2,
+            "titulo": "Pokédex Vue",
+            "descricao": "Uma Pokédex feita utilizando VueJS com SASS, Axios e Pinia. ",
+            "link": "https://pokedex-vue-nine.vercel.app",
+            "target": "_blank",
+            "img": "https://raw.githubusercontent.com/ThiagoRazor/portfolio-reactjs/main/src/assets/pokedex.png"
         },
         {
-        "id": 3,
-        "titulo": "Sueli's Cleaning Service",
-        "descricao": "Site de uma empresa prestadora de serviços de limpeza. Feito em ReactJs e TypeScript",
-        "link": "https://www.sueliscleaningservice.com",
-        "target": "_blank",
-        "img": "https://raw.githubusercontent.com/ThiagoRazor/portfolio-reactjs/main/src/assets/sueli.png"
+            "id": 3,
+            "titulo": "Sueli's Cleaning Service",
+            "descricao": "Site de uma empresa prestadora de serviços de limpeza. Feito em ReactJs e TypeScript",
+            "link": "https://www.sueliscleaningservice.com",
+            "target": "_blank",
+            "img": "https://raw.githubusercontent.com/ThiagoRazor/portfolio-reactjs/main/src/assets/sueli.png"
+        },
+        {
+            "id": 4,
+            "titulo": "EVOGYM Fitness",
+            "descricao": "Landing Page de uma academia fictícia. Feito em ReactJs e TypeScript",
+            "link": "https://gym-landing.vercel.app",
+            "target": "_blank",
+            "img": "https://raw.githubusercontent.com/ThiagoRazor/portfolio-reactjs/main/src/assets/gym.png"
         }
+        
     ]
     }
