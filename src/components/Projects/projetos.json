@@ -12,7 +12,7 @@
             "id": 2,
             "titulo": "Pokédex Vue",
             "descricao": "Uma Pokédex feita utilizando VueJS com SASS, Axios e Pinia. ",
-            "link": "https://pokedex-vue-nine.vercel.app",
+            "link": "https://pokedex-vuejs-mauve.vercel.app/pokemons",
             "target": "_blank",
             "img": "https://raw.githubusercontent.com/ThiagoRazor/portfolio-reactjs/main/src/assets/pokedex.png"
         },
