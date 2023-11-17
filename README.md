@@ -13,6 +13,8 @@ Confira o [Portfólio em ação](https://thiagooliveiradev.vercel.app/) no Verce
 
 - ReactJs: Uma biblioteca JavaScript para criar interfaces de usuário.
 
+- Typescript: Linguagem de programação fortemente tipada que se baseia em JavaScript.
+
 - Vercel: Plataforma de hospedagem para deploy rápido e fácil.
   
 ## Como Rodar Localmente
