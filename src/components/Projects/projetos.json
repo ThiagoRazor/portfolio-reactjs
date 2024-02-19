@@ -20,7 +20,7 @@
             "id": 3,
             "titulo": "Sueli's Cleaning Service",
             "descricao": "Site de uma empresa prestadora de serviços de limpeza. Feito em ReactJs e TypeScript",
-            "link": "https://www.sueliscleaningservice.com",
+            "link": "https://sidcleanservices.com/",
             "target": "_blank",
             "img": "https://raw.githubusercontent.com/ThiagoRazor/portfolio-reactjs/main/src/assets/sueli.png"
         },
